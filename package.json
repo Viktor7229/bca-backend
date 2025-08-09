@@ -1,0 +1,28 @@
+{
+  "name": "bca-backend",
+  "version": "1.0.0",
+  "description": "Blockchain Ads (BCA) simplified backend for campaign budgeting, rollover, and top-ups",
+  "main": "start.js",
+  "scripts": {
+    "start": "node start.js",
+    "dev": "nodemon start.js",
+    "test": "jest"
+  },
+  "keywords": [
+    "ads",
+    "budget",
+    "campaign",
+    "backend"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.19.2",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "jest": "^29.7.0",
+    "supertest": "^6.3.4"
+  }
+}
